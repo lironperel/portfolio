@@ -69,6 +69,8 @@ body {
 
 #menu {
 	width: 500px;
+	max-height: 20vw;
+
 	margin: 100px 10%;
 	display: flex;
 	background: #fff;
@@ -76,6 +78,7 @@ body {
 	padding: 1%;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-top: 10vw;
 }
 
 .menu-buttons{
@@ -414,7 +417,7 @@ body {
 #menu {
 	width: 65%;
 	flex-direction: column;
-	margin-top: 20%;
+	margin-top: 20vw;
 }
 
 #aboutme{
