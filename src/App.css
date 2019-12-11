@@ -43,3 +43,13 @@
 .anim-dur {
   animation-duration: 2s;
 }
+
+
+@media only screen and (max-width:620px) {
+  #pl-icons{
+    width: 90%;
+  }
+  #my-title {
+    font-size:5vw;
+  }
+}
