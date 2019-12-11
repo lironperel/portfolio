@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      HI!
+      <img id='my-photo' width='150px' src={require('./images/Me.jpg')} />
     </div>
   );
 }
