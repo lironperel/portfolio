@@ -9,7 +9,7 @@ body {
 
 #header {
 	width: 100%;
-	max-width: 700px;
+	max-width: 650px;
 	background: url(par.png) no-repeat center center,linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 	text-align: left;
 	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -17,8 +17,8 @@ body {
 	font-size: 2.5rem;
 	border-radius: 15px;
 	font-family: 'Righteous', cursive;
-	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+	-webkit-box-shadow: 0px 10px 13px -7px #353535, 5px 5px 15px 5px rgba(0,0,0,0);  
+	box-shadow: 0px 10px 13px -7px #353535, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 #wdtext {
@@ -91,15 +91,16 @@ body {
 }
 
 #menu {
-	/* width: 500px; */
 	width: 100%;
+	padding: 1%;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 20px;
+	margin-top: 85px;
 	/* max-height: 20vw; */
 	/* margin: 100px 10%; */
-	display: flex;
-	background: #fff;
-	padding: 1%;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	/* background: #fff; */
+	/* justify-content: space-between;
+	flex-wrap: wrap; */
 	/* margin-top: 10vw; */
 }
 
