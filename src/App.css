@@ -8,6 +8,7 @@
   color: black;
   /* height: 30vw; */
   width:100%;
+  transform: translate3d(0,0,0);
   /* background-color: black; */
 }
 
@@ -30,7 +31,7 @@
 
 #pl-icons {
   display: flex;
-  width:50%;
+  width:80%;
 	flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -41,7 +42,7 @@
 }
 
 .anim-dur {
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 
