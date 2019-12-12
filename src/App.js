@@ -20,6 +20,9 @@ function App() {
         <img className='anim-dur animated zoomInUp delay-4s' width='100vw' src={require('./images/ExpressJS.png')} />
         <img className='anim-dur animated zoomInUp delay-5s' width='100vw' src={require('./images/mongodb.png')} />
       </div>
+      <div id='aboutme'>
+        
+      </div>
     </div>
   );
 }

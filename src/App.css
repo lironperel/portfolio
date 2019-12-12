@@ -10,6 +10,8 @@
   width:100%;
   transform: translate3d(0,0,0);
   /* background-color: black; */
+  margin: 0;
+	padding: 0;
 }
 
 #my-photo {
@@ -31,7 +33,7 @@
 
 #pl-icons {
   display: flex;
-  width:80%;
+  width:100%;
 	flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -39,10 +41,12 @@
 
 #pl-icons * {
   align-self: center;
+  padding: 2px;
 }
 
 .anim-dur {
   animation-duration: 1s;
+  margin: 2px;
 }
 
 
