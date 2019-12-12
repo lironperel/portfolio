@@ -4,9 +4,9 @@ body {
 	margin: 0;
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 	/* background: #434343; */
-	color: white;	
-	overflow: auto;
+	color: white;
 	height: 100%;
+	overflow: auto;
 }
 
 #header {
@@ -14,13 +14,12 @@ body {
 	max-width: 650px;
 	background: url(par.png) no-repeat center center,linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 	text-align: left;
-	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	color: white;
 	font-size: 2.5rem;
 	border-radius: 15px;
 	font-family: 'Righteous', cursive;
 	-webkit-box-shadow: 0px 10px 13px -7px #353535, 5px 5px 15px 5px rgba(0,0,0,0);  
-	box-shadow: 0px 10px 13px -7px #353535, 5px 5px 15px 5px rgba(0,0,0,0);
+	box-shadow: 0px 5px 6px -3px #000000, 2px 2px 7px 2px rgba(0,0,0,0);
 }
 
 #wdtext {
@@ -70,7 +69,6 @@ body {
     min-height: 100%;
     padding: 0 0 50px; /* footer height + space */
     box-sizing: border-box;
-    overflow: auto;
 }
 
 
@@ -84,7 +82,7 @@ body {
 #middle{
 	align-items: center;
 	display: flex;
-	margin: 1% 0;
+	margin: 2% 0;
 	flex: 3;
 	justify-content: center;
 }
