@@ -11,7 +11,18 @@
   transform: translate3d(0,0,0);
   /* background-color: black; */
   margin: 0;
-	padding: 0;
+  padding: 0;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  
+}
+
+#Appcontent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
 #my-photo {
@@ -33,7 +44,7 @@
 
 #pl-icons {
   display: flex;
-  width:100%;
+  width:90%;
 	flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -49,10 +60,20 @@
   margin: 2px;
 }
 
+#aboutme {
+  width: 100%;
+  height: auto;
+  border-top: 1px #c0c0c0 solid;
+  border-top-left-radius: 50px;
+  padding-top: 5%;
+  color: rgb(53, 53, 53);
+  background: #c0c0c0;
+  font-size: 1.4rem;
+}
 
 @media only screen and (max-width:620px) {
   #pl-icons{
-    width: 90%;
+    /* width: 90%; */
   }
   #my-title {
     font-size:5vw;
