@@ -25,11 +25,43 @@ function App() {
           <img alt='Express.js' className='anim-dur animated zoomInUp delay-4s' width='100vw' src={require('./images/ExpressJS.png')} />
           <img alt='MongoDB' className='anim-dur animated zoomInUp delay-5s' width='100vw' src={require('./images/mongodb.png')} />
         </div>
-        <div data-aos="fade-in" data-aos-delay="5000" id='aboutme'>
-          Hi, I'm Liron Perel.<br />
+        <div id='aboutme'>
+          <div data-aos='fade-in' data-aos-offset='100'>
+            <p id='aboutme-title'>About Me<br /></p> 
+            <div>
+              Hi, I'm Liron Perel.<br />
+              B.Sc. Software Engineer from Ashdod, Israel.<br />
+            </div>
+            <br />
+            <div id='my-skills'
+                data-aos='fade-in'
+                data-aos-offset="50">
+              <div class='skill' id='teamwork'>
+                <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
+                <p>Fast-Learner<br /></p>
+              </div>
+              <div class='skill' id='teamwork'>
+                <img alt='fastlearner' src={require('./images/team.png')} />
+                <p>Team Player<br /></p>
+              </div>
+              <div class='skill' id='teamwork'>
+                <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
+                <p>Fast-Learner<br /></p>
+              </div><div class='skill' id='teamwork'>
+                <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
+                <p>Fast-Learner<br /></p>
+              </div>
+              <div class='skill' id='teamwork'>
+                <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
+                <p>Fast-Learner<br /></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style={{borderTopLeftRadius:'20px',width:'100%',marginTop:'-20px',zIndex: '999999',background:'white'}}>
+            My Works<br />
+            Hi, I'm Liron Perel.<br />
           B.Sc. Software Engineer from Ashdod, Israel.<br />
-          <br />
-          
         </div>
 
       </div>
