@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d081f465.chunk.css",
-    "main.js": "/portfolio/static/js/main.6a6b15ca.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6a6b15ca.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.169bf10f.chunk.css",
+    "main.js": "/portfolio/static/js/main.d533adcd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d533adcd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2c3c5d2a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.2c3c5d2a.js.map",
     "static/css/2.7abef457.chunk.css": "/portfolio/static/css/2.7abef457.chunk.css",
-    "static/js/2.c733ea3e.chunk.js": "/portfolio/static/js/2.c733ea3e.chunk.js",
-    "static/js/2.c733ea3e.chunk.js.map": "/portfolio/static/js/2.c733ea3e.chunk.js.map",
+    "static/js/2.57f62123.chunk.js": "/portfolio/static/js/2.57f62123.chunk.js",
+    "static/js/2.57f62123.chunk.js.map": "/portfolio/static/js/2.57f62123.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e85d99f1fe857fb4eb034a9de043cf03.js": "/portfolio/precache-manifest.e85d99f1fe857fb4eb034a9de043cf03.js",
+    "precache-manifest.da89e588717af66caaf95fbfa2bc5db4.js": "/portfolio/precache-manifest.da89e588717af66caaf95fbfa2bc5db4.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.7abef457.chunk.css.map": "/portfolio/static/css/2.7abef457.chunk.css.map",
-    "static/css/main.d081f465.chunk.css.map": "/portfolio/static/css/main.d081f465.chunk.css.map",
-    "static/js/2.c733ea3e.chunk.js.LICENSE": "/portfolio/static/js/2.c733ea3e.chunk.js.LICENSE",
+    "static/css/main.169bf10f.chunk.css.map": "/portfolio/static/css/main.169bf10f.chunk.css.map",
+    "static/js/2.57f62123.chunk.js.LICENSE": "/portfolio/static/js/2.57f62123.chunk.js.LICENSE",
     "static/media/ExpressJS.png": "/portfolio/static/media/ExpressJS.8587dd06.png",
     "static/media/HTMLCSSJS.png": "/portfolio/static/media/HTMLCSSJS.c155c357.png",
     "static/media/Me.jpg": "/portfolio/static/media/Me.95f3d656.jpg",
+    "static/media/fastlearner.ico": "/portfolio/static/media/fastlearner.92881e15.ico",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.fc44a3bd.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.6217b547.png",
-    "static/media/react.png": "/portfolio/static/media/react.6bbb347f.png"
+    "static/media/react.png": "/portfolio/static/media/react.6bbb347f.png",
+    "static/media/team.png": "/portfolio/static/media/team.7e6f25d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2c3c5d2a.js",
     "static/css/2.7abef457.chunk.css",
-    "static/js/2.c733ea3e.chunk.js",
-    "static/css/main.d081f465.chunk.css",
-    "static/js/main.6a6b15ca.chunk.js"
+    "static/js/2.57f62123.chunk.js",
+    "static/css/main.169bf10f.chunk.css",
+    "static/js/main.d533adcd.chunk.js"
   ]
 }
