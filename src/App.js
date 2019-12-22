@@ -56,7 +56,7 @@ function App() {
           </div>
           </div>
         </div>
-        <div style={{borderTopLeftRadius:'20px',width:'100%',marginTop:'-20px',zIndex: '999999',background:'white',opacity:'0.9'}}>
+        <div id='my-works'>
             My Works<br />
             Hi, I'm Liron Perel.<br />
           B.Sc. Software Engineer from Ashdod, Israel.<br />

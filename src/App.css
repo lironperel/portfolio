@@ -82,6 +82,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 0 5%;
+  padding-bottom: 50px;
 }
 
 .skill {
@@ -96,6 +97,16 @@
 
 .skill > p {
   margin-top: -3px;
+}
+
+#my-works {
+  border-top-left-radius: 50px;
+  width: 100%;
+  margin-top: -50px;
+  z-index: 999999;
+  background: white;
+  opacity: 0.9;
+  min-height: 50vw;
 }
 
 @media only screen and (max-width:620px) {
