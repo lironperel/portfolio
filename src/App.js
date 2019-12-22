@@ -28,37 +28,35 @@ function App() {
         <div id='aboutme'>
           <div data-aos='fade-in' data-aos-offset='100'>
             <p id='aboutme-title'>About Me<br /></p> 
-            <div>
-              Hi, I'm Liron Perel.<br />
-              B.Sc. Software Engineer from Ashdod, Israel.<br />
+          <div>
+          Hi, I'm Liron Perel.<br />
+          B.Sc. Software Engineer from Ashdod, Israel.<br />
+          </div>
+          <br />
+          <div id='my-skills'>
+            <div class='skill' id='teamwork'>
+              <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
+              <p>Fast-Learner<br /></p>
             </div>
-            <br />
-            <div id='my-skills'
-                data-aos='fade-in'
-                data-aos-offset="50">
-              <div class='skill' id='teamwork'>
-                <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
-                <p>Fast-Learner<br /></p>
-              </div>
-              <div class='skill' id='teamwork'>
-                <img alt='fastlearner' src={require('./images/team.png')} />
-                <p>Team Player<br /></p>
-              </div>
-              <div class='skill' id='teamwork'>
-                <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
-                <p>Fast-Learner<br /></p>
-              </div><div class='skill' id='teamwork'>
-                <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
-                <p>Fast-Learner<br /></p>
-              </div>
-              <div class='skill' id='teamwork'>
-                <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
-                <p>Fast-Learner<br /></p>
-              </div>
+            <div class='skill' id='teamwork'>
+              <img alt='fastlearner' src={require('./images/team.png')} />
+              <p>Team Player<br /></p>
+            </div>
+            <div class='skill' id='teamwork'>
+              <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
+              <p>Fast-Learner<br /></p>
+            </div><div class='skill' id='teamwork'>
+              <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
+              <p>Fast-Learner<br /></p>
+            </div>
+            <div class='skill' id='teamwork'>
+              <img alt='fastlearner' src={require('./images/fastlearner.ico')} />
+              <p>Fast-Learner<br /></p>
             </div>
           </div>
+          </div>
         </div>
-        <div style={{borderTopLeftRadius:'20px',width:'100%',marginTop:'-20px',zIndex: '999999',background:'white'}}>
+        <div style={{borderTopLeftRadius:'20px',width:'100%',marginTop:'-20px',zIndex: '999999',background:'white',opacity:'0.9'}}>
             My Works<br />
             Hi, I'm Liron Perel.<br />
           B.Sc. Software Engineer from Ashdod, Israel.<br />
