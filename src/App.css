@@ -107,6 +107,8 @@
   background: white;
   opacity: 0.9;
   min-height: 50vw;
+  padding-top: 2%;
+  color: rgb(53, 53, 53);
 }
 
 @media only screen and (max-width:620px) {
